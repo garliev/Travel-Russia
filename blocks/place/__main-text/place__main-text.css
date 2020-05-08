@@ -1,0 +1,15 @@
+.place__main-text {
+  display: grid;
+  grid-row-gap: 2.25em;
+  align-content: start;
+  /* padding-right: 1em; */
+}
+
+@media all and (max-width: 425px) {
+  .place__main-text {
+    max-width: 393px;
+    margin-top: 24px;
+    text-align: justify;
+    padding: 0;
+  }
+}

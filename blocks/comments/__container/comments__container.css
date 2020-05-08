@@ -1,0 +1,16 @@
+.comments__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin: 0;
+}
+
+@media all and (max-width : 768px) {
+  .comments__container {
+    flex-direction: column;
+    max-width: 382px;
+
+  }
+}

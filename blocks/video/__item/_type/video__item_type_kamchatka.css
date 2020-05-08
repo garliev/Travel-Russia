@@ -1,0 +1,6 @@
+.video__item_type_kamchatka{
+  background-image: url(../../../../images/kamchatka.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+}

@@ -1,0 +1,26 @@
+.content-subtitle {
+  max-width: 640px;
+  font-size: 1.5rem;
+  line-height: 2.185rem;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  margin: 48px auto;
+}
+
+@media all and (max-width : 768px) {
+  .content-subtitle {
+    font-size: 1.5rem;
+    line-height: 2.1875rem;
+  }
+}
+
+@media all and (max-width: 425px) {
+
+  .content-subtitle {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+  }
+}

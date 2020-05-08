@@ -1,0 +1,19 @@
+.lead__map {
+  margin-top: 73px;
+  width: 100%;
+}
+
+@media all and (max-width: 425px) {
+
+  .lead__map {
+    width:100vw;
+    margin-top: 31px;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .lead__map {
+    width:100vw;
+  }
+}
